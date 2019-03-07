@@ -1,0 +1,24 @@
+{
+  "name": "shop999",
+  "version": "1.0.0",
+  "description": "HTML template for Doer",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2b-dev/shop999.git"
+  },
+  "keywords": [
+    "HTML",
+    "Boostrap4",
+    "Shopping"
+  ],
+  "author": "Nu Chaimongkon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2b-dev/shop999/issues"
+  },
+  "homepage": "https://github.com/2b-dev/shop999#readme"
+}

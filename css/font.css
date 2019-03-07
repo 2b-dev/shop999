@@ -1,0 +1,27 @@
+* {
+  font-family: 'Kanit', sans-serif;
+}
+
+.srb {
+  font-family: 'Sarabun', sans-serif;
+}
+
+.kn {
+  font-family: 'Kanit', sans-serif;
+}
+
+.readmore-news {
+  color: #b43d3e;
+}
+
+p.pabout {
+  text-indent: 1.5rem;
+  text-align: justify;
+}
+
+p.date-text {
+  text-align: left;
+  font-size: 14px;
+  color: #797979;
+  margin-bottom: 0;
+}
