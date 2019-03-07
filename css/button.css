@@ -1,0 +1,22 @@
+.btn-header {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.btn-header i {
+  font-size: 20px;
+  color: #959595;
+}
+.btn-social-share {
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 1px solid #c9c9c9;
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+.btn-social-share i {
+  font-size: 14px;
+  color: #959595;
+}

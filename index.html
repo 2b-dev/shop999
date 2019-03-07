@@ -40,29 +40,219 @@
     <link rel="stylesheet" href="./css/checkbox.css" />
     <link rel="stylesheet" href="./css/input.css" />
     <link rel="stylesheet" href="./css/card.css" />
+    <link rel="stylesheet" href="./css/select.css" />
     <link rel="stylesheet" href="./css/css.css" />
   </head>
 
   <body>
-    <header>
-      <h1>Brand Name</h1>
-      <small
-        >Scroll Down <br />
-        &darr;</small
+    <div class="container">
+      <header>
+        <img src="./images/main_logo.png" class="main-logo" />
+        <div class="div-shipping">
+          Shipping to
+          <select class="vodiapicker">
+            <option
+              value="en"
+              class="test"
+              data-thumbnail="./images/th.png"
+            ></option>
+            <option value="au" data-thumbnail="./images/th.png"></option>
+            <option value="uk" data-thumbnail="./images/th.png"></option>
+          </select>
+
+          <div class="lang-select">
+            <button class="btn-select" value=""></button>
+            <div class="b">
+              <ul id="a"></ul>
+            </div>
+          </div>
+        </div>
+        <div class="div-cart">
+          <div class="contain-icon-header">
+            <button class="btn-header"><i class="fas fa-search"></i></button>
+            <button class="btn-header">
+              <i class="fas fa-cart-arrow-down"></i>
+            </button>
+          </div>
+          <div class="contain-account">
+            <a href="#!" class="text-account">MY ACCOUNT</a>
+          </div>
+        </div>
+      </header>
+    </div>
+    <nav id="topNav" class="navbar navbar-expand-lg navbar-dark">
+      <!-- Navbar brand -->
+      <!-- Collapse button -->
+      <button
+        class="navbar-toggler ml-auto"
+        type="button"
+        data-toggle="collapse"
+        data-target="#basicExampleNav"
+        aria-controls="basicExampleNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
       >
-    </header>
-    <nav id="topNav">
-      <ul>
-        <li><a href="#">Nav 1</a></li>
-        <li><a href="#">Nav 2</a></li>
-        <li><a href="#">Nav 3</a></li>
-        <li><a href="#">Nav 4</a></li>
-        <li><a href="#">Nav 5</a></li>
-      </ul>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Collapsible content -->
+      <div class="collapse navbar-collapse" id="basicExampleNav">
+        <!-- Links -->
+        <ul class="navbar-nav m-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">PRODUCTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">REFUEENCE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">FACTORY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTACT</a>
+          </li>
+        </ul>
+        <!-- Links -->
+      </div>
+      <!-- Collapsible content -->
     </nav>
 
     <main>
-      <h1>Below Navbar</h1>
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-12 col-md-6 d-flex align-items-center justify-content-center justify-content-md-start mb-2"
+          >
+            <button class="btn-social-share">
+              <i class="fab fa-instagram"></i>
+            </button>
+            <button class="btn-social-share">
+              <i class="fab fa-facebook-f"></i>
+            </button>
+            <button class="btn-social-share">
+              <i class="fab fa-twitter"></i>
+            </button>
+            <button class="btn-social-share">
+              <i class="fab fa-pinterest-p"></i>
+            </button>
+          </div>
+          <div class="col-12 col-md-6 text-center text-md-right mb-2">
+            <p class="c-959595 mb-0 fs-14">GET ALL THE LATEST NEWS</p>
+            <div
+              class="input-group input-group-sm div-ip-get-news border-959595"
+            >
+              <input
+                type="text"
+                class="form-control ip-get-news"
+                aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-sm"
+              />
+              <div class="input-group-prepend m-0">
+                <span
+                  class="input-group-text bg-959595"
+                  id="inputGroup-sizing-sm"
+                  >GO</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <!--Carousel Wrapper-->
+        <div
+          id="carousel-example-2"
+          class="carousel slide carousel-fade"
+          data-ride="carousel"
+        >
+          <!--Indicators-->
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carousel-example-2"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carousel-example-2" data-slide-to="1"></li>
+            <li data-target="#carousel-example-2" data-slide-to="2"></li>
+          </ol>
+          <!--/.Indicators-->
+          <!--Slides-->
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <div class="view">
+                <img
+                  class="d-block w-100"
+                  src="./images/slide.png"
+                  alt=""
+                />
+                <div class="mask rgba-black-slight"></div>
+              </div>
+              <div class="carousel-caption">
+                <h1 class="title-slide">999 UNIFORM</h3>
+                <p>DISCOVER THE NEW SPRING SUMMER COLLECTION</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <!--Mask color-->
+              <div class="view">
+                <img
+                  class="d-block w-100"
+                  src="./images/slide.png"
+                  alt=""
+                />
+                <div class="mask rgba-black-slight"></div>
+              </div>
+              <div class="carousel-caption">
+                <h1 class="title-slide">999 UNIFORM</h3>
+                <p>DISCOVER THE NEW SPRING SUMMER COLLECTION</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <!--Mask color-->
+              <div class="view">
+                <img
+                  class="d-block w-100"
+                  src="./images/slide.png"
+                  alt=""
+                />
+                <div class="mask rgba-black-slight"></div>
+              </div>
+              <div class="carousel-caption">
+                  <h1 class="title-slide">999 UNIFORM</h3>
+                    <p>DISCOVER THE NEW SPRING SUMMER COLLECTION</p>
+              </div>
+            </div>
+          </div>
+          <!--/.Slides-->
+          <!--Controls-->
+          <a
+            class="carousel-control-prev"
+            href="#carousel-example-2"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carousel-example-2"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+          <!--/.Controls-->
+        </div>
+        <!--/.Carousel Wrapper-->
+      </div>
     </main>
   </body>
   <script
@@ -94,6 +284,7 @@
     src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"
   ></script>
   <script type="text/javascript" src="./js/navbar.js"></script>
+  <script type="text/javascript" src="./js/shipping.js"></script>
   <script>
     new WOW().init();
   </script>
