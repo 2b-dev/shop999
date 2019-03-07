@@ -46,3 +46,17 @@ h1.title-slide {
   padding-bottom: 0.5rem;
   border-bottom: 4px solid #000000;
 }
+.fas-sup-card{
+  font-size: 24px;
+  margin-bottom: 0.5rem;
+}
+.sup-card{
+  font-size: 12px;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+.link-sup-card{
+  color: #ffffff;
+  font-size: 13px;
+  text-decoration: underline;
+}

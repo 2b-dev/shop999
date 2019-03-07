@@ -135,6 +135,36 @@ nav a:hover {
   margin-top: 15px;
   z-index: 50;
 }
+.card-transparent{
+  background-color: transparent!important;
+}
+.owl-nav{
+  position: relative;
+  width: 100%;
+  margin-top: -45%;
+}
+.owl-prev{
+  position: absolute;
+  left: -5rem;
+}
+.owl-next{
+  position: absolute;
+  right: -5rem;
+}
+.owl-prev span, .owl-next span{
+  font-size: 10vmin;
+}
+.hover-img{
+  position: absolute;
+  display:none!important;
+}
+.owl-item .card.card-transparent:hover .hover-img{
+  display:block!important;
+}
+footer{
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
 @media (max-width: 575.98px) {
   .div-ip-get-news {
     width: 100%;
@@ -150,6 +180,9 @@ nav a:hover {
     padding-top: 3rem;
     padding-bottom: 3rem;
   }
+  .section-list-musthave{
+    margin-top: 17vmin;
+  }
 }
 @media only screen and (min-width: 768px) {
   .div-ip-get-news {
@@ -157,6 +190,12 @@ nav a:hover {
   }
   .carousel-caption {
     bottom: 30%;
+  }
+  .section-list-musthave{
+    margin-top: 6vmin;
+  }
+  .after-listmusthave{
+    margin-top: 45vmin;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -167,6 +206,7 @@ nav a:hover {
   nav.navbar {
     min-height: 50px;
   }
+  
 }
 @media only screen and (min-width: 1024px) {
   .carousel-indicators {
@@ -192,11 +232,17 @@ nav a:hover {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
   }
+  .after-listmusthave{
+    margin-top: 47vmin;
+  }
 }
 
 @media only screen and (min-width: 1200px){
   .pad-newarrivals{
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
+  }
+  .after-listmusthave{
+    margin-top: 45vmin;
   }
 }
