@@ -82,17 +82,59 @@ nav a:hover {
 .navScrolled {
   position: fixed;
   top: 0;
-  z-index: 1;
+  z-index: 99;
   box-shadow: 0px 1px 5px #000;
 }
 .div-ip-get-news {
   width: 50%;
   margin-left: auto;
 }
-.carousel-caption{
-  bottom: 30%;
-}
 
+.carousel .carousel-indicators li {
+  background-color: #fff;
+  border: 2px solid #000000;
+  width: 0.4rem;
+  height: 0.4rem;
+  opacity: 1;
+}
+.carousel .carousel-indicators li.active {
+  background-color: #000000;
+}
+.hr-999shop {
+  border: none;
+  height: 5px;
+  background-color: #000000;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.row-new-grid {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.column-4{
+  -ms-flex: 33.33%; /* IE 10 */
+  flex: 33%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.weekly-text{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #f3f4f4;
+  z-index: 60;
+}
+.border-select{
+  border-top: 1px solid #000000;
+  border-left: 1px solid #000000;
+  border-right: 1px solid #000000;
+  padding-top: 1.2rem;
+  position: absolute;
+  margin-top: 15px;
+  z-index: 50;
+}
 @media (max-width: 575.98px) {
   .div-ip-get-news {
     width: 100%;
@@ -104,6 +146,18 @@ nav a:hover {
   nav.navbar {
     min-height: 40px;
   }
+  .pad-newarrivals{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .div-ip-get-news {
+    width: 80%;
+  }
+  .carousel-caption {
+    bottom: 30%;
+  }
 }
 @media only screen and (max-width: 768px) {
   .main-logo {
@@ -113,7 +167,36 @@ nav a:hover {
   nav.navbar {
     min-height: 50px;
   }
-  .div-ip-get-news {
-    width: 80%;
+}
+@media only screen and (min-width: 1024px) {
+  .carousel-indicators {
+    bottom: 38.5%;
+  }
+  .mt-del {
+    top: -40px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 70;
+  }
+  .img-right-1 {
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+  .img-shop-hover:hover{
+    margin: 0px;
+    border: 8px solid #000000;
+  }
+  .pad-newarrivals{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 1200px){
+  .pad-newarrivals{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
   }
 }
