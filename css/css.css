@@ -139,9 +139,9 @@ nav a:hover {
   background-color: transparent!important;
 }
 .owl-nav{
-  position: relative;
+  position: absolute;
   width: 100%;
-  margin-top: -45%;
+  top: 45%;
 }
 .owl-prev{
   position: absolute;
@@ -195,7 +195,6 @@ footer{
     margin-top: 6vmin;
   }
   .after-listmusthave{
-    margin-top: 45vmin;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -233,7 +232,6 @@ footer{
     padding-bottom: 1.5rem;
   }
   .after-listmusthave{
-    margin-top: 47vmin;
   }
 }
 
@@ -243,6 +241,5 @@ footer{
     padding-bottom: 2.5rem;
   }
   .after-listmusthave{
-    margin-top: 45vmin;
   }
 }
