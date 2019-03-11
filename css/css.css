@@ -161,6 +161,14 @@ nav a:hover {
 .owl-item .card.card-transparent:hover .hover-img{
   display:block!important;
 }
+.aforfancy{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom:20%;
+  right: 0;
+  background-color: transparent;
+}
 footer{
   padding-top: 3rem;
   padding-bottom: 1rem;
