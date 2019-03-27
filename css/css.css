@@ -114,19 +114,19 @@ nav a:hover {
   flex-wrap: wrap;
   padding: 0 4px;
 }
-.column-4{
+.column-4 {
   -ms-flex: 33.33%; /* IE 10 */
   flex: 33%;
   padding-left: 15px;
   padding-right: 15px;
 }
-.weekly-text{
+.weekly-text {
   padding-left: 1rem;
   padding-right: 1rem;
   background-color: #f3f4f4;
   z-index: 60;
 }
-.border-select{
+.border-select {
   border-top: 1px solid #000000;
   border-left: 1px solid #000000;
   border-right: 1px solid #000000;
@@ -135,43 +135,135 @@ nav a:hover {
   margin-top: 15px;
   z-index: 50;
 }
-.card-transparent{
-  background-color: transparent!important;
+.card-transparent {
+  background-color: transparent !important;
 }
-.owl-nav{
+.owl-nav {
   position: absolute;
   width: 100%;
   top: 45%;
 }
-.owl-prev{
+.owl-prev {
   position: absolute;
   left: -5rem;
 }
-.owl-next{
+.owl-next {
   position: absolute;
   right: -5rem;
 }
-.owl-prev span, .owl-next span{
+.owl-prev span,
+.owl-next span {
   font-size: 10vmin;
 }
-.hover-img{
+.hover-img {
   position: absolute;
-  display:none!important;
+  display: none !important;
 }
-.owl-item .card.card-transparent:hover .hover-img{
-  display:block!important;
+.owl-item .card.card-transparent:hover .hover-img {
+  display: block !important;
 }
-.aforfancy{
+.aforfancy {
   position: absolute;
   top: 0;
   left: 0;
-  bottom:20%;
+  bottom: 20%;
   right: 0;
   background-color: transparent;
 }
-footer{
+footer {
   padding-top: 3rem;
   padding-bottom: 1rem;
+}
+.card-customer {
+  width: 100%;
+  text-align: center;
+}
+.card-customer img {
+  width: 200px !important;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+.messenger-div {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 60px;
+  height: 60px;
+  background-color: transparent;
+  z-index: 9999;
+}
+.popup-messenger {
+  position: fixed;
+  width: 360px;
+  height: auto;
+  bottom: 7rem;
+  right: 2rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18),
+    0 4px 15px 0 rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15) !important;
+  z-index: 9999;
+}
+.popup-messenger .body-popup-mes{
+  width: 100%;
+  padding: 1rem;
+  padding-left: 2.5rem;
+  padding-right: 5rem;
+  position: relative;
+  text-align: center;
+}
+.popup-messenger .body-popup-mes h5{
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: left;
+}
+.popup-messenger .body-popup-mes p{
+  font-size: 0.8rem;
+  color: #959595;
+  text-decoration: underline;
+  text-align: left;
+}
+.popup-messenger .footer-popup-mes{
+  text-align: center;
+  padding: 1rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+.popup-messenger .footer-popup-mes a.chat{
+  font-weight: 400;
+}
+.popup-messenger .body-popup-mes .div-avatar-mes{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 1rem;
+  right: 1.5rem;
+}
+.popup-messenger .body-popup-mes .div-avatar-mes img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18),
+    0 4px 15px 0 rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15) !important;
+}
+.messenger-div .logo-messenger {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.popup-messenger .body-popup-mes .div-close-mes{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: transparent;
+  top: 0.7rem;
+  left: 0.7rem;
+  cursor: pointer;
 }
 @media (max-width: 575.98px) {
   .div-ip-get-news {
@@ -184,11 +276,11 @@ footer{
   nav.navbar {
     min-height: 40px;
   }
-  .pad-newarrivals{
+  .pad-newarrivals {
     padding-top: 3rem;
     padding-bottom: 3rem;
   }
-  .section-list-musthave{
+  .section-list-musthave {
     margin-top: 17vmin;
   }
 }
@@ -199,10 +291,10 @@ footer{
   .carousel-caption {
     bottom: 30%;
   }
-  .section-list-musthave{
+  .section-list-musthave {
     margin-top: 6vmin;
   }
-  .after-listmusthave{
+  .after-listmusthave {
   }
 }
 @media only screen and (max-width: 768px) {
@@ -213,7 +305,6 @@ footer{
   nav.navbar {
     min-height: 50px;
   }
-  
 }
 @media only screen and (min-width: 1024px) {
   .carousel-indicators {
@@ -231,23 +322,23 @@ footer{
     left: 0;
     right: 0;
   }
-  .img-shop-hover:hover{
+  .img-shop-hover:hover {
     margin: 0px;
     border: 8px solid #000000;
   }
-  .pad-newarrivals{
+  .pad-newarrivals {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
   }
-  .after-listmusthave{
+  .after-listmusthave {
   }
 }
 
-@media only screen and (min-width: 1200px){
-  .pad-newarrivals{
+@media only screen and (min-width: 1200px) {
+  .pad-newarrivals {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
   }
-  .after-listmusthave{
+  .after-listmusthave {
   }
 }

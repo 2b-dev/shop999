@@ -69,6 +69,7 @@
         </div>
       </header>
     </div>
+    
 
     <main>
       <div class="container">
@@ -82,6 +83,32 @@
             <button class="btn-social-share">
               <i class="fab fa-facebook-f"></i>
             </button>
+            <button class="btn-social-share">
+              <i class="fab fa-twitter"></i>
+            </button>
+            <button class="btn-social-share">
+              <i class="fab fa-pinterest-p"></i>
+            </button>
+          </div>
+          <div class="col-12 col-md-6 text-center text-md-right mb-2">
+            <p class="c-959595 mb-0 fs-14">GET ALL THE LATEST NEWS</p>
+            <div
+              class="input-group input-group-sm div-ip-get-news border-959595"
+            >
+              <input
+                type="text"
+                class="form-control ip-get-news"
+                aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-sm"
+              />
+              <div class="input-group-prepend m-0">
+                <span
+                  class="input-group-text bg-959595"
+                  id="inputGroup-sizing-sm"
+                  >GO</span
+                >
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -170,10 +197,8 @@
               <div
                 class="col-12 col-md-8 col-lg-8 pad-newarrivals d-flex flex-column align-items-center justify-content-center mb-3"
               >
-                <h3 class="font-weight-bold h-border-btm invisible">
-                  NEW ARRIVALS
-                </h3>
-                <p class="text-center fw-500 invisible">
+                <h3 class="font-weight-bold h-border-btm">NEW ARRIVALS</h3>
+                <p class="text-center fw-500">
                   DISCOVER THE NEW<br />SPRING SUMMER COLLECTION
                 </p>
               </div>
@@ -222,7 +247,9 @@
       </div>
       <div class="container mt-3">
         <div class="row justify-content-center position-relative">
-          <div class="col-12 d-flex justify-content-center"></div>
+          <div class="col-12 d-flex justify-content-center">
+            <h3 class="weekly-text font-weight-bold">WEEKLY MUST-HAVE</h3>
+          </div>
           <div class="col-10 col-md-9 col-lg-8 text-center border-select">
             <p class="fw-500 mb-0">
               THE TRENDS, LOOKS AND MUST-HAVES FROM THE WORLD OF 99UNIFORM.COM
@@ -234,48 +261,23 @@
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-12 col-lg-10">
-              <div class="list-must-have owl-carousel"></div>
+              <div class="list-must-have owl-carousel">
+                
+              </div>
             </div>
           </div>
         </div>
       </section>
-      <section>
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-12 mt-5 mb-3 text-center">
-              <h3 class="font-weight-bold">Our Customer</h3>
-            </div>
-            <div class="col-12 col-md-8 col-lg-6 text-center">
-              <div class="slide-customer owl-carousel">
-                <div>
-                  <div class="card-customer ">
-                    <img src="./images/customer1.png" />
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Vitae nostrum, quos voluptas fugiat blanditiis, temporibus
-                      expedita cumque doloribus ea, officiis consequuntur
-                      repellat minus ad veritatis? Facere similique accusamus,
-                      accusantium sunt!
-                    </p>
-                    <h5 class="font-weight-bold">Teelek</h5>
-                    <p>Developer</p>
-                  </div>
-                </div>
-                <div>
-                  <div class="card-customer">
-                    <img src="./images/customer2.png" />
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Vitae nostrum, quos voluptas fugiat blanditiis, temporibus
-                      expedita cumque doloribus ea, officiis consequuntur
-                      repellat minus ad veritatis? Facere similique accusamus,
-                      accusantium sunt!
-                    </p>
-                    <h5 class="font-weight-bold">Cha Cha</h5>
-                    <p>Developer</p>
-                  </div>
-                </div>
-              </div>
+
+      
+      <section class="black mt-3">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 py-1 text-center">
+              <h5 class="white-text mb-0">
+                CHOOSE 3 FREE SAMPLES WITH PURCHASE.
+                <a href="#!" class="white-text"><u>Find Out More</u></a>
+              </h5>
             </div>
           </div>
         </div>
@@ -301,22 +303,6 @@
         </div>
       </div>
     </footer>
-    <div class="popup-messenger">
-      <div class="body-popup-mes">
-        <h5>Hi! We're here to answer any Questions you may have.</h5>
-        <p class="">Log in to Messenger to chat</p>
-        <div class="div-avatar-mes">
-          <img src="./images/avata_mes.png" />
-        </div>
-        <div class="div-close-mes"><i class="far fa-times-circle"></i></div>
-      </div>
-      <div class="footer-popup-mes">
-        <a href="#" class="chat">Chat</a>
-      </div>
-    </div>
-    <div class="messenger-div">
-      <img src="./images/messenger.png" class="logo-messenger z-depth-1-half" />
-    </div>
   </body>
   <script
     type="text/javascript"
@@ -351,34 +337,28 @@
   <script>
     new WOW().init();
     var numi = 1;
-    for (numi = 1; numi < 73; numi++) {
-      $(".list-must-have").append(
+    for (numi = 1; numi < 73; numi++){
+        $(".list-must-have").append(
         `<div>
           <div class="card card-transparent shadow-none">
-            <img class="card-img-top" src="./images/wk_small/wk` +
-          numi +
-          `.jpg" />
+            <img class="card-img-top" src="./images/wk_small/wk`+numi+`.jpg" />
             <img class="hover-img" src="./images/frame.png" />
             <a
-              href="./images/wk_lg/wk` +
-          numi +
-          `.jpg"
+              href="./images/wk_lg/wk`+numi+`.jpg"
               data-fancybox="gallery"
               class="aforfancy"
             ></a>
             <div class="card-body text-center p-1">
-              <h5 class="card-title"><a>Uniform ` +
-          numi +
-          `</a></h5>
+              <h5 class="card-title"><a>Uniform `+numi+`</a></h5>
               <p class="card-text">
                 very good on a track and simply brilliant away from it
               </p>
-              
+              <a href="#" class="btn btn-sm btn-black">DISCOVER MORE</a>
             </div>
           </div>
         </div>`
       );
-    }
+    }    
     jQuery(document).ready(function($) {
       $(".list-must-have").owlCarousel({
         loop: true,
@@ -403,27 +383,6 @@
           }
         }
       });
-      $(".slide-customer").owlCarousel({
-        loop: true,
-        margin: 20,
-        nav: false,
-        autoplay: true,
-        autoplayTimeout: 4500,
-        responsiveClass: true,
-        dots: false,
-        responsive: {
-          0: {
-            items: 1,
-            nav: false
-          },
-          600: {
-            items: 1
-          },
-          1000: {
-            items: 1
-          }
-        }
-      });
     });
     $("a.aforfancy").fancybox({
       buttons: ["slideShow", "share", "zoom", "fullScreen", "close", "thumbs"],
@@ -434,11 +393,5 @@
         axis: "x"
       }
     });
-    $('.div-close-mes').click(function(){
-      $('.popup-messenger').hide(300);
-    })
-    $('.messenger-div').click(function(){
-      $('.popup-messenger').show(300);
-    })
   </script>
 </html>
